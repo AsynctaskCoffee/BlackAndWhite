@@ -8,7 +8,7 @@ import com.huawei.hms.mlsdk.imgseg.MLImageSegmentationScene
 import com.huawei.hms.mlsdk.imgseg.MLImageSegmentationSetting
 
 class Eraser {
-    
+
     companion object {
         private var mAnalyzer: MLImageSegmentationAnalyzer
 
