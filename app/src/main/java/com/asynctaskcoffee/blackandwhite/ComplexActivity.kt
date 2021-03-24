@@ -103,4 +103,9 @@ class ComplexActivity : AppCompatActivity(), EraserListener {
                 }
             }
     }
+
+    fun doEgShop(view: View) {
+        backgroundImageView.clearColorFilter()
+        backgroundImageView.setImageResource(R.drawable.egypt_shop)
+    }
 }
